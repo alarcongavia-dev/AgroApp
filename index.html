@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>AgroApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌱 AgroApp</h1>
+<h2>Diagnóstico de enfermedades en caña</h2>
+
+<input type="file" id="imageUpload">
+<br><br>
+<button onclick="analizarImagen()">Analizar</button>
+
+<p id="resultado"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
